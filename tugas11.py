@@ -18,7 +18,7 @@ from sklearn.metrics import (
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from imblearn.over_sampling import SMOTE # Pastikan Anda sudah menginstal imbalanced-learn: pip install imbalanced-learn
+from imblearn.over_sampling import SMOTE 
 import warnings
 
 # Mengabaikan warning untuk tampilan yang lebih bersih
@@ -313,4 +313,3 @@ else:
 
 
 print("\n--- Analisis selesai ---")
-print("Pastikan untuk mengisi interpretasi di setiap bagian grafik dan hasil pemodelan pada laporan Anda.")
